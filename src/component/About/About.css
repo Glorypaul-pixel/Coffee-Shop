@@ -1,0 +1,54 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.discover {
+  display: flex;
+  padding: 2rem 4rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbbca1;
+}
+.about-text {
+  width: 50%;
+}
+.about-text {
+  color: #2f1f14;
+}
+.about-text h1 {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.about-text h3 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 1.4rem;
+}
+.about-text p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 29.05px; */
+  text-align: left;
+}
+.about-text button {
+  background-color: #2f1f14;
+  color: white;
+  padding: 0.3rem 2rem;
+  margin: 2rem 0;
+}
+.about-image {
+  width: 50%;
+}
+.about-image img {
+  width: 80%;
+}

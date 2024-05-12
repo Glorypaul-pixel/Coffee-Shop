@@ -28,7 +28,7 @@ header {
 img {
   width: 100%;
 }
-ul {
+.home-page ul {
   display: flex;
   justify-content: space-around;
   width: 85%;

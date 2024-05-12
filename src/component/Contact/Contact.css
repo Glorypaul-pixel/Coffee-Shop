@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact {
+  background-color: #645546;
+  padding: 4rem 9rem;
+  text-align: center;
+}
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact h1 {
+  color: white;
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 50.02px;
+  text-align: center;
+}
+.contact h3 {
+  color: white;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.IMAGE {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IMAGE img {
+  width: 60px;
+}
+.elon,
+.jeff,
+.beast {
+  background-color: #dbbca1;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.elon p,
+.jeff p,
+.beast p {
+  color: #0a424f;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22.5px;
+  text-align: center;
+}
