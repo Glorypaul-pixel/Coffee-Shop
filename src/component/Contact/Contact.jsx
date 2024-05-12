@@ -3,7 +3,7 @@ import "./Contact.css";
 import Cup from "../../assets/cleanup.png";
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="purchase">
       <div className="IMAGE">
         <h1>Reviews</h1>
         <img src={Cup} alt="cup" />

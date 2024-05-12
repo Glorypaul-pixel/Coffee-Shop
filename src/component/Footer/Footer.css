@@ -41,7 +41,9 @@
 .footer input,
 textarea {
   padding: 8px;
+  color: black;
 }
+
 .footer ul li {
   font-size: 18px;
 }
