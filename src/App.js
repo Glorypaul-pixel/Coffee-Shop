@@ -42,7 +42,7 @@ function App() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
   return (
     <div>
       <div className="home-page " id="home">
@@ -52,7 +52,13 @@ function App() {
           </div>
           <nav>
             <ul>
-              <li className={activeSection === "home" ? "active" : ""}>
+              <li>
+                
+              </li>
+              <li
+                className={activeSection === "home" ? "active" : ""}
+                id="page"
+              >
                 <a href="#home">Home</a>
               </li>
               <li className={activeSection === "about" ? "active" : ""}>
